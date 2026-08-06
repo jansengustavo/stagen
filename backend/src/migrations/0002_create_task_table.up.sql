@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS tasks (
+    task_id BINARY(16) NOT NULL DEFAULT (UUID_TO_BIN(UUID(), 1)) PRIMARY KEY,
+    title VARCHAR(100) NOT NULL UNIQUE,
+    date VARCHAR(100) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    completed TINYINT(1)
+);

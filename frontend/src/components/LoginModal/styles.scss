@@ -1,0 +1,82 @@
+.login-modal {
+  :global {
+    .ant-modal-content {
+      background: var(--gray);
+      border-radius: var(--border-10);
+    }
+
+    .ant-modal-header {
+      background: var(--gray);
+      border-bottom: 1px solid rgba(224, 227, 236, 0.1);
+      border-radius: var(--border-10) var(--border-10) 0 0;
+    }
+
+    .ant-modal-title {
+      font-family: var(--font-family-01);
+      font-weight: var(--font-heading-weight);
+      font-size: var(--font-heading-md-size);
+      color: var(--white);
+    }
+
+    .ant-modal-close {
+      color: rgba(224, 227, 236, 0.5);
+
+      &:hover {
+        color: var(--white);
+      }
+    }
+
+    .ant-form-item-label > label {
+      font-family: var(--font-family-02);
+      font-size: var(--font-body-sm-size);
+      font-weight: 500;
+      color: var(--white);
+    }
+
+    .ant-input {
+      background: rgba(224, 227, 236, 0.05);
+      border: 1px solid rgba(224, 227, 236, 0.1);
+      color: var(--white);
+      font-family: var(--font-family-02);
+      border-radius: var(--border-5);
+
+      &:hover,
+      &:focus {
+        border-color: var(--blue-01);
+        background: rgba(224, 227, 236, 0.08);
+        color: var(--white);
+        box-shadow: 0 0 0 2px rgba(76, 140, 228, 0.1);
+      }
+
+      &::placeholder {
+        color: rgba(224, 227, 236, 0.4);
+      }
+    }
+
+    .ant-btn-primary {
+      height: 44px;
+      font-family: var(--font-family-02);
+      font-size: var(--font-body-sm-size);
+      font-weight: 500;
+      border-radius: var(--border-5);
+      background: var(--blue-01);
+      border: none;
+
+      &:hover,
+      &:focus {
+        background: var(--hover) !important;
+        border-color: var(--hover) !important;
+      }
+    }
+
+    .ant-btn-link {
+      font-family: var(--font-family-02);
+      font-size: var(--font-body-sm-size);
+      color: var(--blue-01);
+
+      &:hover {
+        color: var(--hover);
+      }
+    }
+  }
+}

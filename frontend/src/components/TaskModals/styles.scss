@@ -1,0 +1,88 @@
+:global(.task-modal) {
+  .ant-modal-content {
+    background: var(--blue-03);
+
+    .ant-modal-header {
+      background: var(--blue-03);
+      border-bottom: 1px solid rgba(34, 40, 49, 0.1);
+
+      .ant-modal-title {
+        font-family: var(--font-family-02);
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--black);
+      }
+
+      .ant-modal-close {
+        color: rgba(34, 40, 49, 0.7);
+
+        &:hover {
+          color: var(--black);
+        }
+      }
+    }
+
+    .ant-modal-body {
+      padding: 24px;
+
+      :global {
+        .ant-input,
+        .ant-input-textarea > textarea {
+          background: rgba(255, 255, 255, 0.7);
+          border-color: rgba(34, 40, 49, 0.15);
+          color: var(--black);
+          font-family: var(--font-family-02);
+
+          &::placeholder {
+            color: rgba(34, 40, 49, 0.5);
+          }
+
+          &:hover {
+            border-color: var(--blue-01);
+          }
+
+          &:focus {
+            border-color: var(--blue-01);
+            box-shadow: 0 0 0 2px rgba(76, 140, 228, 0.1);
+          }
+        }
+      }
+    }
+
+    .ant-modal-footer {
+      border-top: 1px solid rgba(34, 40, 49, 0.1);
+
+      .ant-btn {
+        font-family: var(--font-family-02);
+        font-weight: 600;
+        border-radius: 6px;
+        height: 36px;
+        transition: all 0.25s ease;
+
+        &.ant-btn-primary {
+          background-color: var(--blue-01) !important;
+          border-color: var(--blue-01) !important;
+
+          &:hover {
+            background-color: var(--hover) !important;
+            border-color: var(--hover) !important;
+          }
+        }
+
+        &.ant-btn-default {
+          border-color: rgba(34, 40, 49, 0.2);
+          color: rgba(34, 40, 49, 0.8);
+
+          &:hover {
+            border-color: rgba(34, 40, 49, 0.4);
+            color: var(--black);
+          }
+        }
+      }
+    }
+  }
+
+  .ant-modal-mask {
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+}
