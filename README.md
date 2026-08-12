@@ -23,7 +23,6 @@ gerenciar o foco.
 ## Telas
  
 <p align="center">
-  GIF
 <img src="docs/screenshots/stagen-demo.gif" width="700" alt="Site em GIF"/> 
 
   <img src="docs/screenshots/homePage.png" width="700" alt="Home Page"/>
