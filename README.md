@@ -1,8 +1,6 @@
 <h1 align="center">Stagen</h1>
 
 <p align="center">
-  Aplicativo de produtividade full-stack: site institucional público e um dashboard
-  autenticado com calendário de tarefas e timer estilo Pomodoro.
 </p>
 
 <p align="center">
