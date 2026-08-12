@@ -25,9 +25,9 @@ gerenciar o foco.
 ## Telas
  
 <p align="center">
-## Demo <img src="docs/screenshots/stagen-demo.gif" width="700" alt="Site em GIF"/> 
+<img src="docs/screenshots/stagen-demo.gif" width="700" alt="Site em GIF"/> 
 
-  <img src="docs/screenshots/home.png" width="700" alt="Home Page"/>
+  <img src="docs/screenshots/homePage.png" width="700" alt="Home Page"/>
   <br/><br/>
   <img src="docs/screenshots/question.png" width="700" alt="Questionário"/>
   <br/><br/>
