@@ -21,17 +21,20 @@ organiza tarefas em um calendário e usa um timer no estilo Pomodoro para
 gerenciar o foco.
 
 ## Telas
- 
-<p align="center">
-<img src="docs/screenshots/stagen-demo.gif" width="700" alt="Site em GIF"/> 
 
+<p align="center">
+  <b>Site em GIF</b><br/>
+  <img src="docs/screenshots/stagen-demo.gif" width="700" alt="Site em GIF"/>
+  <br/><br/>
+  <b>Home Page</b><br/>
   <img src="docs/screenshots/homePage.png" width="700" alt="Home Page"/>
   <br/><br/>
+  <b>Timer Pomodoro</b><br/>
+  <img src="docs/screenshots/timer.png" width="700" alt="Timer Pomodoro"/>
+  <b>Questionário</b><br/>
   <img src="docs/screenshots/question.png" width="700" alt="Questionário"/>
   <br/><br/>
-  <img src="docs/screenshots/timer.png" width="700" alt="Timer Pomodoro"/>
 </p>
-
 ## Stack
 
 **Front-end:** React 19, TypeScript, Vite, Ant Design
