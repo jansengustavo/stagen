@@ -23,18 +23,19 @@ gerenciar o foco.
 ## Telas
 
 <p align="center">
-  <b>Site em GIF</b><br/>
+  <b>Site em GIF</b><br/><br/>
   <img src="docs/screenshots/stagen-demo.gif" width="700" alt="Site em GIF"/>
   <br/><br/>
-  <b>Home Page</b><br/>
+  <b>Home Page</b><br/><br/>
   <img src="docs/screenshots/homePage.png" width="700" alt="Home Page"/>
   <br/><br/>
-  <b>Timer Pomodoro</b><br/>
-  <img src="docs/screenshots/timer.png" width="700" alt="Timer Pomodoro"/>
-  <b>Questionário</b><br/>
+  <b>Questionário</b><br/><br/>
   <img src="docs/screenshots/question.png" width="700" alt="Questionário"/>
   <br/><br/>
+  <b>Timer Pomodoro</b><br/><br/>
+  <img src="docs/screenshots/timer.png" width="700" alt="Timer Pomodoro"/>
 </p>
+
 ## Stack
 
 **Front-end:** React 19, TypeScript, Vite, Ant Design
